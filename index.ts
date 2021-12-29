@@ -1,5 +1,5 @@
 function hello(name: string): string {
   return name;
 }
-const hi = hello("Manu");
+const hi = hello("Arron Rodgers");
 console.log("hi: ", hi);
