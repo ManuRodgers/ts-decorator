@@ -3,7 +3,7 @@ class StringUtil {
     return str.replace(/\s+/g, '');
   }
 }
-
+// TODO:
 function MethodInterceptor(params: any): MethodDecorator {
   console.log('before method interceptor');
   return (targetClass: any, propertyKey: string | symbol, descriptor: PropertyDescriptor) => {
